@@ -1,4 +1,4 @@
-package Conditionals;
+package Conditional;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class IfElse {
             int age = s.nextInt();
 
             if (age > 18){
-                System.out.println("You can visit this system.");
+                System.out.println(name + "You can visit this system.");
             } else if (age < 18) {
                 System.out.println("Sorry, you can not visit the system.");
                 int whenCan = 18-age;
